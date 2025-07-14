@@ -14,6 +14,11 @@ struct HomeView: View {
         ZStack{
             Text("Screen2")
         }
+        VStack{
+            Text("Screen2")
+            Text("Screen2")
+            Text("Screen2")
+        }
     }
 }
 
