@@ -1,0 +1,57 @@
+# macOS system files
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.xcworkspace/xcuserdata/
+*.xccheckout
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Swift Package Manager
+/.build/
+/Packages/
+/Package.resolved
+
+# CocoaPods
+/Pods/
+/Podfile.lock
+
+# Carthage 
+/Carthage/
+/Carthage/Checkouts
+/Carthage/Build
+
+# Fastlane 
+/fastlane/report.xml
+/fastlane/screenshots
+/fastlane/test_output
+
+# SwiftPM Xcode integration
+.swiftpm/xcode/
+
+# Logs
+*.log
+
+# Archives
+*.xcarchive
+
+# User-specific settings
+*.swp
+*.swo
+*.orig
+
+# Playground files
+timeline.xctimeline
+playground.xcworkspace
+
+# Environment files
+.env
+.env.*
+
+# Other
+.idea/
+.vscode/
+*.code-workspace
