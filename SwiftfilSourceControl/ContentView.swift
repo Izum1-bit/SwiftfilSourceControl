@@ -15,7 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("SwiftFul!")
             
-            Button("Subscribe now!"){
+            Button("Subscribe"){
                 
             }
         }
