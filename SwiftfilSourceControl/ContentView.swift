@@ -16,6 +16,15 @@ struct ContentView: View {
                         Text("YO!")
                     }
                 }
+                                .foregroundStyle(.tint)
+                            Text("Some new title!")
+                            
+                            Button("Subscribe now!"){
+                                
+                            }
+                        }
+                    }
+                }
             }
         }
         .padding()
